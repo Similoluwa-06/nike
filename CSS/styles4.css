@@ -1,0 +1,594 @@
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+
+#nike1{
+  height: 35px;
+  background-color: whitesmoke;
+  width: 1170px
+  
+  
+}
+.nav{
+  font-size: smaller;
+  text-decoration: none;
+  color: black;
+  float: right;
+  background-color: whitesmoke;
+}
+
+ #nike2{
+  height: 61px;
+  width: 1170px;
+  background-color: white;
+  margin-top: 0px;
+
+}
+#img2{
+  height: 61px;
+  width: 65px;
+  margin-left: 45px;
+}
+a.nav{
+  margin-left: 20px;
+  
+margin-top: 10px;
+}
+#img1{
+  height: 35px;
+  width: 120px;
+  margin-left: 20px;
+}
+#nike2{
+  display: flex;
+  background-color: white;
+}
+.nava{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 30px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#in{
+  border-radius: 16px;
+  color: white;
+  background-color: whitesmoke;
+  width: 160px;
+  height: 35px;
+  text-decoration: none;
+  border: 1px  whitesmoke;
+  margin-top: -5px;
+  font-size: medium;
+}
+::placeholder{
+  color:lightgrey;
+}
+#nike3{
+  background-color: white;
+margin-left: 200px;
+display: flex;
+margin-top: -3px;
+}
+#fk{
+  width: 1160px;
+}
+#save{
+  font-size: large;
+  color: grey;
+  background-color: whitesmoke;
+}
+#shop{
+  font-size: medium;
+  text-decoration: underline;
+  color: grey;
+  background-color: whitesmoke;
+}
+#nike4{
+  background-color: white;
+  height: 347px;
+  width: 80%;
+  margin-left: 50px;
+  
+}
+#img3{
+  margin-left: 59px;
+  margin-top: 0px;
+}
+#ic1{
+  margin-right: 10px;
+  margin-top: 15px;
+}
+#ic2{
+  margin-left: 50px;
+  margin-top: 25px;
+  height: 25px;
+  width: 15px;
+}
+.fa fa-heart-o{
+  height: 35px;
+}
+#feat{
+  color: black;
+  text-decoration: underline;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+#nike5{
+  background-color:white;
+  height: 550px;
+  width: 950px;
+  margin-left: 150px;
+}
+#nike06{
+  display: flex;
+  height: 500px;
+  width: 950px;
+  margin-left: 10px;
+  background-color: white;
+}
+#img04{
+  height: 450px ;
+  width: 500px;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+#img05{
+  height: 450px;
+  width: 500px;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+#z1{
+  position: absolute;
+  margin-top: -150px;
+  background-color: whitesmoke;
+  font-size: 23px;
+  margin-left: 50px;
+}
+#b1{
+  background-color: white;
+  color: white;
+  border-radius: 16px;
+  border: 1px white;
+  width: 100px;
+  height: 35px;
+  text-decoration: none;
+  margin-top: -5px;
+  font-size: medium;
+}
+
+#z2{
+  position: absolute;
+  margin-top: -150px;
+  background-color: whitesmoke;
+  font-size: 23px;
+  margin-left: 520px;
+}
+#b2{
+  background-color: white;
+  color: white;
+  border-radius: 16px;
+  border: 1px white;
+  width: 100px;
+  height: 35px;
+  text-decoration: none;
+  margin-top: -5px;
+  font-size: medium;
+}
+#fi{
+  background-color: white;
+  color: white;
+  border-radius: 26px;
+  border: 1px white;
+  width: 200px;
+  height: 35px;
+  text-decoration: none;
+  margin-top: -5px;
+  font-size: medium;
+  margin-left: 110px;
+}
+#va{
+  position: absolute;
+  margin-top: -150px;
+  font-size: 23px;
+  margin-left: 615px;
+}
+#co{
+  position: absolute;
+  margin-top: -150px;
+  font-size: 23px;
+  margin-left: 50px;
+}
+#d1{
+  background-color: white;
+  color: white;
+  border-radius: 16px;
+  border: 1px white;
+  width: 100px;
+  height: 35px;
+  text-decoration: none;
+  margin-top: -137px;
+  font-size: medium;
+  margin-left: 70px;
+}
+#mv{
+  position: absolute;
+  font-size: medium;
+  font-weight: normal;
+  margin-top: -170px;
+  color: black;
+  background-color: none;
+  margin-left: 50px;
+}
+#tr{
+  font-weight: bolder;
+  font-size: xx-large;
+  color: black;
+}
+#d2{
+  background-color: white;
+  color: white;
+  border-radius: 16px;
+  border: 1px white;
+  width: 100px;
+  height: 35px;
+  text-decoration: none;
+  margin-top: -137px;
+  font-size: medium;
+  margin-left: 650px;
+}
+#xx{
+  background-color: white;
+  color: white;
+  border-radius: 16px;
+  border: 1px white;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: medium;
+  margin-left: 0px;
+}
+#zz{
+  background-color: white;
+  color: white;
+  border-radius: 49px;
+  border: 1px white;
+  width: 120px;
+  height: 37px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: medium;
+  margin-left: 100px;
+}
+#pop{
+  color: black;
+  margin-left: 30px;
+  background-color:white;
+}
+#nike6{
+  height: 1000px;
+  width: 90.3%;
+  background-color:white;
+  margin-left: 60px;
+}
+#nike7{
+  height: 400px;
+  width: 90%;
+  background-color:floralwhite;
+  display: flex;
+  
+}
+
+.nn{
+  color: black;
+  font-size: medium;
+  background-color: whitesmoke;
+}
+.nin{
+  color: gray;
+  background-color: whitesmoke;
+}
+#nike11{
+  height: 540px;
+  width: 92%;
+background: white;
+margin-left: 40px;
+}
+#img5{
+  margin-left: 15px;
+  height: 530px;
+  margin-top: 10px;
+}
+#just{
+  color: black;
+font-size: larger;
+margin-left: 20px;
+font-weight: bolder;
+background-color: white;
+}
+#nike10{
+  background-color: whitesmoke;
+  height: 380px;
+}
+#nike9{
+  background-color: whitesmoke;
+  height: 380px;
+  margin-right: 20px;
+}
+#nike8{
+  background-color: whitesmoke;
+  height: 380px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+#nike7{
+  height: 400px;
+  width: 90%;
+  background-color:white;
+  display: flex;
+  
+}
+#nike12{
+  height: 1700px;
+  width: 1500px;
+  width: 90%;
+  background-color: white;
+  margin-left: 30px;
+}
+#mc{
+  color: black;
+  font-weight: bolder;
+  background-color: white;
+}
+#img6{
+  margin-left: 20px;
+  width: 98%;
+}
+.bu{
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  display: flex;
+}
+#up{
+  background-color: white;
+  font-weight: bolder;
+  color: black;
+  margin-left: 40px;
+}
+#img7{
+  width: 98%;
+  margin-left: 20px;
+}
+#bu1{
+  margin-right: 300px;
+  margin-left: 30px;
+  background-color: white;
+}
+#bu2{
+  margin-right: 300px;
+  background-color: white;
+}
+#bu3{
+  background-color: white;
+}
+#mem{
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+#img8{
+  width: 95%;
+  margin-left: 40px;
+}
+#img9{
+  width: 95%;
+  margin-left: 40px; 
+}
+#nike13{
+  height: 150px;
+  width: 98%;
+  background-color: white;
+  display: flex;
+}
+
+.jj{
+  font-size: medium;
+  color: grey;
+  margin-left: 120px;
+  background-color: white;
+  margin-top: 30px;
+}
+.ii{
+  font-weight: bolder;
+  color: black;
+  }
+#nike14{
+  height: 300px;
+  width: 1230px;
+  background-color: rgb(17, 16, 16);
+  margin-left: -90px;
+}
+#img10{
+  width: 98%;
+}
+a:hover{text-decoration: underline;
+
+}
+center{
+  background-color: whitesmoke;
+  width: 1500px;
+}
+input{
+  position: absolute;
+}
+#ic1{
+  margin-top: 34px;
+  position: absolute;
+  margin-left: 467px;
+  width: 20px;
+  height: 25px;
+  background-color: whitesmoke;
+}
+#ic2{
+  margin-top: 34px;
+  position: absolute;
+  margin-left: 667px;
+  width: 2px;
+  height: 33px;
+  background-color: white;
+}
+#ic3{
+  margin-top: 34px;
+  position: absolute;
+  margin-left: 737px;
+  width: 2px;
+  height: 33px;
+  background-color: white;
+}
+#nike014{
+  background-color: black;
+  width: 1213px;
+  margin-left: -90px;
+  height: 450px;
+  display: flex;
+}
+.rr{
+  background-color: black;
+  color: white;
+  font-size: small;
+  margin-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 40px;
+}
+
+.ww{
+  margin-left: 70px;
+  background-color: black;
+  color: grey;
+  font-size: smaller;
+  margin-top: 40px;
+}
+.pp{
+  font-weight: bolder;
+  background-color: black;
+  margin-top: 40px;
+  color: white;
+}
+.n1{
+  color: white;
+  background-color: black;
+}
+#oc1{
+  border-radius: 30px;
+  background-color: grey;
+  height: 31px;
+  width: 32px;
+  position: absolute;
+  font-size: x-large;
+  margin-left: 1000px;
+  padding-left: 5px;
+  padding-top: 6px;
+  color: black;
+  margin-top: 40px;
+}
+#oc2{
+  border-radius: 30px;
+  background-color: grey;
+  height: 31px;
+  width: 32px;
+  position: absolute;
+  font-size: 21px;
+  margin-left: 1050px;
+  padding-left: 9px;
+  padding-top: 6px;
+  color: black;
+  margin-top: 40px;
+}
+#oc3{
+  border-radius: 30px;
+  background-color: grey;
+  height: 31px;
+  width: 32px;
+  position: absolute;
+  font-size: 21px;
+  margin-left: 1100px;
+  padding-left: 7px;
+  padding-top: 6px;
+  color: black;
+  margin-top: 40px;
+}
+#oc4{
+  border-radius: 30px;
+  background-color: grey;
+  height: 31px;
+  width: 32px;
+  position: absolute;
+  font-size: 23px;
+  margin-left: 1150px;
+  padding-left: 5px;
+  padding-top: 6px;
+  color: black;
+  margin-top: 40px;
+}
+#oc5{
+  position: absolute;
+  height: 15px;
+  margin-top: 700px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+}
+#nike015{
+  display: flex;
+  height: 90px;
+}
+
+#un{
+  color: white;
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  margin-top: 400px;
+  margin-right: 550px;
+  margin-right: 2000px;
+  height: 30px;
+  width: 700px;
+
+}
+#al{
+  color: grey;
+  background-color: black;
+  margin-left: -0px;
+}
+.ab{
+background-color: black;
+color: grey;
+margin-right: 1000px;
+}
+.aw{
+  background-color: black;
+  color: grey;
+}
+#lat{
+  margin-left: -300px;
+  background-color: black;
+
+}
+#g45{
+  height: 500px;
+  width: 450px;
+  background-image: url(img/kk55;)
+}
+
