@@ -165,13 +165,7 @@ margin-top: -3px;
   font-size: medium;
 }
 
-#z2{
-  position: absolute;
-  margin-top: -150px;
-  background-color: whitesmoke;
-  font-size: 23px;
-  margin-left: 520px;
-}
+
 #b2{
   background-color: white;
   color: white;
@@ -219,15 +213,6 @@ margin-top: -3px;
   font-size: medium;
   margin-left: 70px;
 }
-#mv{
-  position: absolute;
-  font-size: medium;
-  font-weight: normal;
-  margin-top: -170px;
-  color: black;
-  background-color: none;
-  margin-left: 50px;
-}
 #tr{
   font-weight: bolder;
   font-size: xx-large;
@@ -246,7 +231,7 @@ margin-top: -3px;
   margin-left: 650px;
 }
 #xx{
-  background-color: white;
+  /* background-color: white; */
   color: white;
   border-radius: 16px;
   border: 1px white;
@@ -258,7 +243,7 @@ margin-top: -3px;
   margin-left: 0px;
 }
 #zz{
-  background-color: white;
+  /* background-color: white; */
   color: white;
   border-radius: 49px;
   border: 1px white;
@@ -298,9 +283,8 @@ margin-top: -3px;
   background-color: whitesmoke;
 }
 #nike11{
-  height: 540px;
+  height: 700px;
   width: 92%;
-background: white;
 margin-left: 40px;
 }
 #img5{
@@ -341,7 +325,6 @@ background-color: white;
   height: 1700px;
   width: 1500px;
   width: 90%;
-  background-color: white;
   margin-left: 30px;
 }
 #mc{
@@ -544,11 +527,11 @@ input{
 #oc5{
   position: absolute;
   height: 15px;
-  margin-top: 700px;
+  margin-top: 400px;
   font-size: 15px;
   background-color: black;
   color: white;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 #nike015{
   display: flex;
@@ -557,12 +540,10 @@ input{
 
 #un{
   color: white;
-  font-size: small;
+  font-size: 11px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: black;
   margin-top: 400px;
-  margin-right: 550px;
-  margin-right: 2000px;
   height: 30px;
   width: 700px;
 
@@ -570,25 +551,101 @@ input{
 #al{
   color: grey;
   background-color: black;
-  margin-left: -0px;
 }
 .ab{
 background-color: black;
 color: grey;
-margin-right: 1000px;
 }
 .aw{
   background-color: black;
   color: grey;
 }
 #lat{
-  margin-left: -300px;
+  margin-left: -470px;
   background-color: black;
 
 }
 #g45{
   height: 500px;
   width: 450px;
-  background-image: url(img/kk55;)
+  background-image: url(../img/kk44.jfif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0px;
+}
+#oc6{
+  position: absolute;
+  margin-top: 402px;
+  background-color: black;
+  font-size: 11px;
+  margin-left: 111px;
+}
+#z1{
+  margin-top: 370px;
+}
+#g46{
+  height: 500px;
+  width: 450px;
+  background-image: url(../img/kk66.jfif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0px;
+  margin-left: 500px;
+}
+#z2{
+  margin-top: 370px;
+  margin-left: 60px;
+  background-color:none ;
+  font-size: 23px;
+  background-color: whitesmoke;
+  position: absolute;
+
+}
+#nike066{
+  display: flex;
+  height: 500px;
+  width: 950px;
+  margin-left: 10px;
+  background-color: white;
+}
+#g47{
+  height: 500px;
+  width: 450px;
+  border-style: solid;
+   background-image: url(../img/kk77.jfif); 
+  background-repeat: no-repeat;
+  background-size: contain; 
+ 
+}
+#co{
+  margin-bottom:10px;
+  margin-left: 25px;
+  
+}
+#g48{
+  height: 500px;
+  width: 450px;
+  border-style: solid;
+   background-image: url(../img/kk88.jfif); 
+  background-repeat: no-repeat;
+  background-size: contain; 
+  margin-left: 300px;
+
+}
+#mc1{
+  height: 500px;
+  width: 950px;
+  background-image: url(../img/kk99.jfif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#mv{
+  font-size: medium;
+  font-weight: normal;
+  margin-top: -170px;
+  color: black;
+  margin-left: 50px;
+  position: absolute;
+  margin-top: 260px;
 }
 
