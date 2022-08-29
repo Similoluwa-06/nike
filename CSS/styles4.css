@@ -219,16 +219,23 @@ margin-top: -3px;
   color: black;
 }
 #d2{
-  background-color: white;
+  background-color: black;
   color: white;
   border-radius: 16px;
   border: 1px white;
   width: 100px;
   height: 35px;
   text-decoration: none;
-  margin-top: -137px;
+  margin-top: 417px;
   font-size: medium;
-  margin-left: 650px;
+  margin-left: -360px;
+  
+}
+#j2{
+  position: absolute;
+   margin-top: -110px;
+   margin-left: 70px;
+   background-color: rgb(0, 0, 0,0);
 }
 #xx{
   /* background-color: white; */
@@ -339,7 +346,6 @@ background-color: white;
 .bu{
   color: black;
   font-weight: bold;
-  background-color: white;
   display: flex;
 }
 #up{
@@ -355,17 +361,13 @@ background-color: white;
 #bu1{
   margin-right: 300px;
   margin-left: 30px;
-  background-color: white;
 }
 #bu2{
   margin-right: 300px;
-  background-color: white;
 }
 #bu3{
-  background-color: white;
 }
 #mem{
-  background-color: white;
   color: black;
   font-weight: bolder;
   margin-left: 20px;
@@ -381,7 +383,6 @@ background-color: white;
 #nike13{
   height: 150px;
   width: 98%;
-  background-color: white;
   display: flex;
 }
 
@@ -389,7 +390,6 @@ background-color: white;
   font-size: medium;
   color: grey;
   margin-left: 120px;
-  background-color: white;
   margin-top: 30px;
 }
 .ii{
@@ -442,7 +442,7 @@ input{
 #nike014{
   background-color: black;
   width: 1213px;
-  margin-left: -90px;
+  margin-left: -140px;
   height: 450px;
   display: flex;
 }
@@ -606,27 +606,26 @@ color: grey;
   height: 500px;
   width: 950px;
   margin-left: 10px;
-  background-color: white;
 }
 #g47{
   height: 500px;
   width: 450px;
   border-style: solid;
-   background-image: url(../img/kk77.jfif); 
+   background-image: url(../img/kk77.jpg); 
   background-repeat: no-repeat;
   background-size: contain; 
  
 }
 #co{
-  margin-bottom:10px;
+  /* margin-bottom:10px;
   margin-left: 25px;
-  
+   */
 }
 #g48{
   height: 500px;
   width: 450px;
   border-style: solid;
-   background-image: url(../img/kk88.jfif); 
+   background-image: url(../img/kk88.jpg); 
   background-repeat: no-repeat;
   background-size: contain; 
   margin-left: 300px;
@@ -648,4 +647,28 @@ color: grey;
   position: absolute;
   margin-top: 260px;
 }
-
+.b1{
+  display: inline-block;
+}
+.ig1{
+  height: 500px;
+  width: 450px;
+  margin-left: 30px;
+}
+#j1{
+  position: absolute;
+   margin-top: -110px;
+   margin-left: 50px;
+   background-color: rgb(0, 0, 0,0);
+}
+#d1{
+  position: absolute;
+  margin-top: 420px;
+  margin-left: -430px;
+}
+#mv{
+  background-color: rgb(0, 0, 0,0);
+}
+#tr{
+  background-color: rgb(0, 0, 0,0);
+}

@@ -1,0 +1,149 @@
+/*
+
+  NOTE REGARDING JS
+
+  This file contains miscellanous JS that is applied to WordPress
+  DOM elements (like expanding and collapsing navigation). It does
+  NOT contain the JS which powers pet search. If you're looking
+  for that, please check out:
+
+  themes/shelter-pet-project/pet-search
+
+*/
+var spp = (function($) {
+
+    var init = function() { // Called on page load, calls all other functions that should occur on page load
+          var $slider = $('.slider-projects .owl-carousel').owlCarousel({
+            items: 1,
+            nav: true,
+            dots: true,
+            lazyLoad: true,
+            autoplay: false,
+            loop: true
+         });
+
+          $('a.video-player-button').magnificPopup({
+              type: 'iframe',
+              mainClass: 'mfp-fade',
+              removalDelay: 160,
+              preloader: false,
+
+              fixedContentPos: false,
+
+              callbacks: {
+                open: function() {
+                  $slider.trigger('stop.owl.autoplay');
+                },
+                close: function(){
+                    //$slider.trigger('play.owl.autoplay');
+                }
+              }
+          });
+
+      if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) { // Disable scaling until user begins a gesture (prevents zooming when user rotates to landscape mode)
+        var viewportmeta = document.querySelector('meta[name="viewport"]');
+        if (viewportmeta) {
+          viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
+          document.body.addEventListener('gesturestart', function () {
+            viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+          }, false);
+        }
+      }
+		
+      // Collapse email forms, provide a link
+      $('.gform_wrapper').each(function() {
+        var id = $(this).attr('id');
+        // Create the expand/collapse link and append it
+        var link = '<p><a class="expand-form" data-id="' + id + '" data-state="collapsed">View Contact Form +</a></p>';
+        $(this).before(link);
+        $(this).slideUp();
+      });
+      // expand /contract on click
+      $('body').on('click', '.expand-form', function() {
+        var id = $(this).attr('data-id');
+        var state = $(this).attr('data-state');
+        if (state === 'collapsed') {
+          $('#' + id).slideDown();
+          $(this).attr('data-state','expanded');
+          $(this).text('Collapse Contact Form –');
+        }
+        else {
+          $('#' + id).slideUp();
+          $(this).attr('data-state','collapsed');
+          $(this).text('View Contact Form +');
+        }
+      });
+
+
+      // User interaction
+      $('a.page-header__nav-handle').click(function() {
+        $('nav.page-header__nav').toggleClass('page-header__nav--open');
+        $('body').toggleClass('nav-open');
+      });
+
+      //
+      // VIDEO MODALS
+      //
+
+      // Display the modal on click and auto-play the video
+      $('.video-modal__play').click(function() {
+        playModalVideo($(this).closest('.video-modal').find('iframe[src*="youtube.com"]'));
+      });
+      $('body').on('click', '.video-sibling-play', function(){
+        playModalVideo($(this).closest('.content-region--two-col-content').find('.video-modal__modal iframe[src*="youtube.com"]'));
+      });
+
+
+
+      // Hide the modal on click and stop the video
+      $('.video-modal__modal').click(function() {
+        stopModalVideo($(this).closest('.video-modal').find('iframe[src*="youtube.com"]'));
+      });
+
+      // Create dynamic play button on sibling column for video modals
+      createVideoPlayButton();
+    };
+
+
+    var stopModalVideo = function ($iframe) {
+      $iframe.closest('.video-modal__modal').removeClass('video-modal__modal--visible');
+      player.stopVideo();
+    }
+
+    var playModalVideo = function ($iframe) { // Displays the video modal and auto-plays the video
+      player.playVideo();
+      $('.video-modal__modal').addClass('video-modal__modal--visible');
+    };
+
+    var createVideoPlayButton = function() { // If editor selected the "add a play button" option, add a play button to the sibling column
+      $('.content-region__column--video').each(function() {
+        var addButton = $(this).attr('data-add-play-button');
+        if (addButton === 'true') {
+          var $otherColumn = $(this).siblings();
+          var videoLength = $(this).attr('data-video-length');
+          if ($otherColumn.find('.content-region__buttons').length === 0) {
+            var html = '<div class="content-region__buttons">';
+            html += '<button class="button button--primary video-sibling-play">Play video (' + videoLength + ')</button>';
+            html += '</div>';
+            if ($otherColumn.hasClass('content-region__column--callout')) {
+              $otherColumn.find('.content-region__callout-area').append(html);
+            } else {
+              $otherColumn.append(html);
+            }
+          }
+        }
+      });
+    };
+
+  // public
+  return {
+    init: init
+  };
+
+})(jQuery); // var spp = (function() {
+
+jQuery(document).ready(function($) {
+   spp.init();
+   // $(window).resize(function(){ spp.resize(); });
+   // $(window).scroll(function(){ spp.onScroll(); });
+});
