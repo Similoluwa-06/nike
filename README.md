@@ -8,6 +8,7 @@
 * HTML
 * CSS
 * FONT AWESOME 
+* BOOTSTRAP
 
 ## Description
  This a cloned version of NIKE website 
