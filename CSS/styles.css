@@ -22,7 +22,7 @@
 }
 #h2{
   color: grey;
-  margin-left: 350px;
+  margin-left: 300px;
   font-weight: 500;
 }
 #h3{
@@ -48,7 +48,7 @@
   height: 63px;
   width: 500px;
   border-radius: 15px;
-  border: 1px solid green;
+  border: 1px solid black;
   margin-left: 350px;
 }
 #em{
