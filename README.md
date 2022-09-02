@@ -10,6 +10,7 @@
 * FONT AWESOME 
 * BOOTSTRAP
 * GIT
+* Visual Studio Code 
 
 ## Description
  This a cloned version of NIKE website.
@@ -18,7 +19,7 @@
  ## Setup/Installation Requirements
  * Clone to desktop
  * Navigate to the top
- * Open Website
+ * Open nike.html
 
  # Known Bugs
  * *Putting images to the center*
