@@ -9,12 +9,16 @@
 * CSS
 * FONT AWESOME 
 * BOOTSTRAP
+* GIT
 
 ## Description
- This a cloned version of NIKE website 
+ This a cloned version of NIKE website.
+ Nike is a footwear brand and on their website their products are displayed for easy access for their customers. Membership offers are also displayed on the website. And on my cloned version of the website I included all these properties.
 
  ## Setup/Installation Requirements
- * Download Images
+ * Clone to desktop
+ * Navigate to the top
+ * Open Website
 
  # Known Bugs
  * *Putting images to the center*
